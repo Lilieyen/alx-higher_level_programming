@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-a = [1, 2, 3, 4, 5]
-print(*a, sep = "\n")
+def print_list_integer(my_list=[]):
+    for x in my_list:
+        print("{:d}".format(x))
