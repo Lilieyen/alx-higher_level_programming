@@ -9,4 +9,4 @@ class Square:
         self.length = length
         """getting area"""
         def area(self):
-            return self.breadth * self.length
+            return self.breadth*self.length
