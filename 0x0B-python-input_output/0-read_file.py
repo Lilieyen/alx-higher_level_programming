@@ -3,5 +3,6 @@
 
 
 def read_file(filename=""):
-    with open('my_file_0.txt', 'r', 'encoding=utf-8') as my file"
-    print(myfile.read())
+    """read whole file"""
+    with open(filename, encoding='utf-8') as myfile:
+        print(myfile.read(), end="")
