@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""printing square"""
+"""
+printing Square based off of 4-square.py
+"""
 
 
 class Square():
@@ -16,7 +18,7 @@ class Square():
 
     def area(self):
         """
-        returning the area of a square.
+        returning  area of a square.
         """
         return self.__size ** 2
 
@@ -34,10 +36,10 @@ class Square():
         else:
             raise TypeError("size must be an integer")
 
-        def my_print(self):
-            for x in range(0, self.__size):
-                for y in range(0, self.__size):
-                    print("#", end="")
-                    print("")
-                    if self.__size == 0:
-                        print("")
+    def my_print(self):
+        for x in range(0, self.__size):
+            for y in range(0, self.__size):
+                print("#", end="")
+            print("")
+        if self.__size == 0:
+            print("")
