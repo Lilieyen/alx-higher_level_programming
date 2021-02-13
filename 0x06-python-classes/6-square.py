@@ -8,7 +8,7 @@ class Square():
     """
     This is the Square class
     """
-    def __init__(self, size=0):
+    def __init__(self, size=0, position=(0, 0)):
         if type(size) != int:
             raise TypeError("size must be an integer")
         elif size < 0:
@@ -45,7 +45,7 @@ class Square():
             print("")
 
     @property
-    def position(self):
+    def position(self, value):
         return self.__position
 
     @position.setter
