@@ -3,7 +3,7 @@
 -- if hbtn_0d_usa and states exist script shouldn't fail
 
 CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
-CREATE TABLE IF NOT EXISTS states (
+CREATE TABLE IF NOT EXISTS hbtn_0d_usa.states (
 	id INT UNIQUE IDENTITY PRIMARY KEY NOT NULL,
 	name VARCHAR(256) NOT NULL
 	);
