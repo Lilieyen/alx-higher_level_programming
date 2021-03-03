@@ -2,4 +2,4 @@
 -- don't list rows without a name value
 -- results should display score and name and score should be listed by descending order
 
-SELECT score, name FROM second_table WHERE name IS NOT NULL AND name != '' ORDER BY DESC;
+SELECT score, name FROM second_table WHERE name IS NOT NULL AND name != '' ORDER BY SCORE DESC;
