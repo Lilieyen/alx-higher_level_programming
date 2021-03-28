@@ -13,6 +13,6 @@ if __name__ == "__main__":
     rows = cursor.fetchall()
     for row in rows:
         if row[1][0] == 'N':
-            print(ow)
-            cursor.close()
-            db.close()
+            print(row)
+    cursor.close()
+    db.close()
