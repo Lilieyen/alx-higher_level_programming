@@ -5,7 +5,7 @@ import request package
 """
 import requests
 
-if __name == "__main__":
+if __name__ == "__main__":
     r = requests.get('https://intranet.hbtn.io/status')
     text = r.text
     print("Body response:")
