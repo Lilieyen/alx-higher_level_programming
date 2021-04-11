@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 """
-python script that fetches a url
-import request package
+fetch url
 """
-import requests
-
-if __name__ == "__main__":
+if __name__ == '__main__':
+    import requests
     r = requests.get('https://intranet.hbtn.io/status')
     text = r.text
     print("Body response:")
