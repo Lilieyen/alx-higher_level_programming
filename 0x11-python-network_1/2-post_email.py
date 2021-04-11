@@ -5,8 +5,8 @@ with the email as a parameter, and displays the body of the response
 (decoded in utf-8)
 """
 from sys import argv
-import urllib.request
-import urllib.parse
+import urllib.request as request
+import urllib.parse as parse
 
 if __name__ = "__main__":
     values = {'email': argv[2]}
