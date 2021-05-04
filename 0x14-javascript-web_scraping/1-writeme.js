@@ -3,7 +3,7 @@
 const fs = require('fs');
 const file = process.argv[2];
 const content = process.argv[3];
-fs.writeFile(file, 'utf-8', function (data, err) {
+fs.writeFile(file, content, 'utf-8', function (data, err) {
   if (err) {
     console.log(err);
   }
